@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/css/style.css"  type="text/css">
+</head>
+<body>
+    <!---Títulos-->
+    <div>
+        <h1>Cadastro de Devs</h1>
+        <p>Complete suas informações</p>
+        <br>
+    </div>
+
+     <!-- Início do formulário -->
+    <form action="">
+        <fieldset>
+            <div class="campo">
+                <label for="nome">
+                    <strong>Nome</strong>
+                </label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div class="campo">
+                <label for="sobrenome">
+                    <strong>Sobrenome</strong>
+                </label>
+                <input type="text" name="sobrenome" id="sobrenome"  required>
+            </div>
+        </fieldset>
+
+          <!-- Campo de e-mail-->
+        <div class="campo">
+            <label for="email">
+                <strong>E-mail</strong>
+            </label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+        <div class="campo">
+            <label for="">
+                <strong>De qual lado da aplicação você desenvolve?</strong>
+            </label>
+            <label for="frontend">
+                <input type="radio" name="devweb" value="frontend">Front-end
+            </label>
+            <label for="backend">
+                <input type="radio" name="devweb" value="backend">Back-end
+            </label>
+            <label for="fullstack">
+                <input type="radio" name="devweb" value="fullstack">Back-end
+            </label>
+        </div>
+
+
+    </form>
+</body>
+</html>
