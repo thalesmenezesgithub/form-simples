@@ -10,8 +10,8 @@
 <body>
     <!---Títulos-->
     <div>
-        <h1>Cadastro de Devs</h1>
-        <p>Complete suas informações</p>
+        <h1 id="titulo">Cadastro de Devs</h1>
+        <p id="subtitulo">Complete suas informações</p>
         <br>
     </div>
 
@@ -42,7 +42,7 @@
 
         <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
         <div class="campo">
-            <label for="">
+            <label for="aplicacao">
                 <strong>De qual lado da aplicação você desenvolve?</strong>
             </label>
             <label for="frontend">
@@ -102,14 +102,15 @@
                 <label for="tecnologia1">Banco de dados SQL</label>
             </div>
         </fieldset>
-        
+
+        <!---Campo para descrever a experência-->
         <div class="campo">
             <br>
             <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
             <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
         </div>
 
-        <button type="submit" class="botao" onsubmit="">Cadastrar</button>
+        <button type="submit" class="botao" id="botao" onsubmit="">Cadastrar</button>
     </form>
 </body>
 </html>
