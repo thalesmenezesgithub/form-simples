@@ -89,3 +89,9 @@ fieldset .grupo .campo{
 .botao, select{
     cursor: pointer;
 }
+
+.
+
+#check{
+    display: inline-block;
+}
