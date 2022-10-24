@@ -52,11 +52,64 @@
                 <input type="radio" name="devweb" value="backend">Back-end
             </label>
             <label for="fullstack">
-                <input type="radio" name="devweb" value="fullstack">Back-end
+                <input type="radio" name="devweb" value="fullstack">Fullstack
             </label>
         </div>
 
+        <div class="campo">
+            <label for="experiencia">
+                <strong>Experiência</strong>
+            </label>
+           <select name="selected " id="selected ">
+                <option selected disabled value="">Selecione</option>
+                <option value="estagiário">Estagiário</option>
+                <option value="trainee">Trainee</option>
+                <option value="júnior">Júnior</option>
+                <option value="pleno">Pleno</option>
+                <option value="sênior">Sênior</option>
+           </select>
+        </div>
 
+        <fieldset class="grupo">
+            <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+            <div id="check">
+                <label for="selecione"><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML5">
+                <label for="tecnologia1">HTML 5</label>
+                
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS3">
+                <label for="tecnologia1">CSS 3</label>
+
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Javascript">
+                <label for="tecnologia1">Javascript</label>
+
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                <label for="tecnologia1">PHP 8</label>
+
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Java">
+                <label for="tecnologia1">Java</label>
+
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="C#">
+                <label for="tecnologia1">C#</label>
+
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Angular-2">
+                <label for="tecnologia1">Angular 2</label>
+
+                <input type="checkbox" id="tecnologia8" name="tecnologia8" value="React">
+                <label for="tecnologia1">React</label>
+
+                <input type="checkbox" id="tecnologia8" name="tecnologia8" value="Banco de Dados SQL">
+                <label for="tecnologia1">Banco de dados SQL</label>
+            </div>
+        </fieldset>
+        
+        <div class="campo">
+            <br>
+            <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+            <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button type="submit" class="botao" onsubmit="">Cadastrar</button>
     </form>
 </body>
 </html>
